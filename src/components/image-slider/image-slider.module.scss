@@ -1,0 +1,16 @@
+.root {}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageWrapper {}
+
+.image {
+    display: none;
+}
+
+.imageCurrent {
+    display: block;
+}

@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    overflow: auto;
+    grid-auto-flow: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
