@@ -16,3 +16,16 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;
+    padding: 15px;
+}
