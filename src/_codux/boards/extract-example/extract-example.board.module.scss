@@ -1,0 +1,52 @@
+.root {
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #3f3f3f;
+  gap: 0;
+}
+
+.instructionsContainer {
+  margin-top: 8px;
+  padding-left: 0px;
+}
+
+.instructionMessage {
+  color: #5a5a5a;
+  font-weight: 500;
+}
+
+.content {
+  padding: 34px 0;
+  display: flex;
+  gap: 18px;
+}
+
+.card {
+  width: 200px;
+  overflow: hidden;
+  box-shadow: 0 4px 7px 1px #57608633;
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+}
+
+.cardInfo {
+  padding: 18px 12px;
+}
+
+.cardTitle {
+  font-size: 18px;
+}
+
+.cardSubtitle {
+  font-size: 14px;
+}
+
+.greenText {
+  color: darkolivegreen;
+}
